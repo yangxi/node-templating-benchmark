@@ -4,7 +4,7 @@ import nunjucksController from './controllers/nunjucks';
 import pugController from './controllers/pug';
 import mithrilController from './controllers/mithril';
 
-export const AppRoutes: [Route] = [
+export const AppRoutes = [
     {
         path: '/react',
         method: 'get',
